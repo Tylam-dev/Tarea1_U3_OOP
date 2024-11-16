@@ -1,5 +1,5 @@
 package Enum;
-
+//Enum para evitar datos "quemados" con la respectiva logica de etapas.
 public enum Etapas_enums {
     OCTAVOS_DE_FINAL("OCTAVOS DE FINAL", 1, 16),
     CUARTOS_DE_FINAL("CUARTOS DE FINAL", 2, 8),

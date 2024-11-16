@@ -22,7 +22,10 @@ public class Etapa {
     public void agregarEquipos(List<Equipo> equipos){
         this.equipos = equipos;
     }
+
+    //Metodo recursivo para crear contrincantes.
     public void establecerContrincantes(){
+        //Limite de recursividad para nuestro metodo
         if(equipos.size() > 2){
             var contrincante1 = getEquipoRandom();
             var contrincante2 = getEquipoRandom();
